@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import { FaStar } from "react-icons/fa";
+import Star from "./Star";
 
 const createArray = (length) => [...Array(length)];
-
-const Star = ({ selected = false, onSelect = (f) => f }) => (
-  <FaStar color={selected ? "red" : "grey"} onClick={onSelect} />
-);
 
 function StarComponent({ totalStars }) {
   const [selectedStars, setSelectedStars] = useState(0);

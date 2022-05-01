@@ -4,7 +4,7 @@ import StarComponent from "./components/starComponent";
 function App() {
   return (
     <>
-      <h1>Recipe App</h1>
+      <h1>Recipe App Rating Component</h1>
 
       <StarComponent totalStars={5} />
     </>

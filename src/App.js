@@ -6,7 +6,11 @@ function App() {
     <>
       <h1>Recipe App Rating Component</h1>
 
-      <StarComponent totalStars={5} />
+      <StarComponent
+        totalStars={10}
+        style={{ backgroundColor: "white" }}
+        onDoubleClick={() => alert("double click")}
+      />
     </>
   );
 }

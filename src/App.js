@@ -6,7 +6,7 @@ function App() {
     <>
       <h1>Recipe App</h1>
 
-      <StarComponent />
+      <StarComponent totalStars={5} />
     </>
   );
 }
